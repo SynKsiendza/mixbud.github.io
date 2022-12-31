@@ -1,0 +1,47 @@
+input[type='checkbox'] { display: none; } 
+.wc + .wc1 + .wc2 + .wc3 + .wc4 + .wc5 + .wc6 + .wc7 + .wc8 + .wc9 + .wc10{ margin: 1.2rem 0; } 
+.lbl-toggle + .lbl-toggle1 + .lbl-toggle2 + .lbl-toggle3 + .lbl-toggle4 + .lbl-toggle5 + .lbl-toggle6 + .lbl-toggle7 + .lbl-toggle8 + .lbl-toggle9 + .lbl-toggle10{ 
+    display: block; 
+    font-weight: bold; 
+    font-family: monospace; 
+    font-size: 1.2rem; 
+    text-transform: uppercase; 
+    text-align: center; 
+    padding: 1rem; 
+    color: #DDD; 
+    background: #0069ff; 
+    cursor: pointer; 
+    border-radius: 7px; 
+    transition: all 0.25s ease-out;
+ } 
+    .lbl-toggle:hover + .lbl-toggle1:hover + .lbl-toggle2:hover + .lbl-toggle3:hover + .lbl-toggle4:hover + .lbl-toggle5:hover + .lbl-toggle6:hover + .lbl-toggle7:hover + .lbl-toggle8:hover + .lbl-toggle9:hover + .lbl-toggle10:hover{ color: #FFF; } 
+    .lbl-toggle::before + .lbl-toggle1::before + .lbl-toggle2::before + .lbl-toggle3::before + .lbl-toggle4::before + .lbl-toggle5::before + .lbl-toggle6::before + .lbl-toggle7::before + .lbl-toggle8::before + .lbl-toggle9::before + .lbl-toggle10::before 
+    { content: ' '; 
+        display: inline-block; 
+        border-top: 5px solid transparent; 
+        border-bottom: 5px solid transparent; 
+        border-left: 5px solid currentColor; 
+        vertical-align: middle; 
+        margin-right: .7rem; 
+        transform: translateY(-2px); 
+        transition: transform .2s ease-out; } 
+    .toggle:checked + .lbl-toggle::before + .toggle1:checked + .lbl-toggle1::before + .toggle2:checked + .lbl-toggle2::before + .toggle3:checked + .lbl-toggle3::before + .toggle4:checked + .lbl-toggle4::before + .toggle5:checked + .lbl-toggle5::before + .toggle6:checked + .lbl-toggle6::before + .toggle7:checked + .lbl-toggle7::before + .toggle8:checked + .lbl-toggle8::before + .toggle9:checked + .lbl-toggle9::before + .toggle10:checked + .lbl-toggle10::before
+        { transform: rotate(90deg) translateX(-3px); }
+    .collapsible-content + .collapsible-content1 + .collapsible-content2 + .collapsible-content3 + .collapsible-content4 + .collapsible-content5 + .collapsible-content6 + .collapsible-content7 + .collapsible-content8 + .collapsible-content9 + .collapsible-content10{ max-height: 0px; 
+            overflow: hidden; 
+            transition: max-height .25s ease-in-out; 
+        } 
+    .toggle:checked + .lbl-toggle + .collapsible-content + .toggle1:checked + .lbl-toggle1 + .collapsible-content1 + .toggle2:checked + .lbl-toggle2 + .collapsible-content2 + .toggle3:checked + .lbl-toggle3 + .collapsible-content3 + .toggle4:checked + .lbl-toggle4 + .collapsible-content4 + .toggle5:checked + .lbl-toggle5 + .collapsible-content5 + .toggle6:checked + .lbl-toggle6 + .collapsible-content6 + .toggle7:checked + .lbl-toggle7 + .collapsible-content7 + .toggle8:checked + .lbl-toggle8 + .collapsible-content8 + .toggle9:checked + .lbl-toggle9 + .collapsible-content9 + .toggle10:checked + .lbl-toggle10 + .collapsible-content10
+    { max-height: 350px; } 
+    .toggle:checked + .lbl-toggle + .toggle1:checked + .lbl-toggle1 + .toggle2:checked + .lbl-toggle2 + .toggle3:checked + .lbl-toggle3 + .toggle4:checked + .lbl-toggle4 + .toggle5:checked + .lbl-toggle5 + .toggle6:checked + .lbl-toggle6 + .toggle7:checked + .lbl-toggle7 + .toggle8:checked + .lbl-toggle8 + .toggle9:checked + .lbl-toggle9 + .toggle10:checked + .lbl-toggle10
+    { 
+        border-bottom-right-radius: 0; 
+        border-bottom-left-radius: 0; 
+    } 
+    .collapsible-content .content-inner + .collapsible-content1 .content-inner1 + .collapsible-content2 .content-inner2 + .collapsible-content3 .content-inner3 + .collapsible-content4 .content-inner4 + .collapsible-content5 .content-inner5 + .collapsible-content6 .content-inner6 + .collapsible-content7 .content-inner7 + .collapsible-content8 .content-inner8 + .collapsible-content9 .content-inner9 + .collapsible-content10 .content-inner10
+    { background: rgba(0, 105, 255, .2);
+     border-bottom: 1px solid rgba(0, 105, 255, .45); 
+     border-bottom-left-radius: 7px; 
+     border-bottom-right-radius: 7px; 
+     padding: .5rem 1rem; } 
+     .collapsible-content p + .collapsible-content1 p + .collapsible-content2 p + .collapsible-content3 p + .collapsible-content4 p + .collapsible-content5 p + .collapsible-content6 p + .collapsible-content7 p + .collapsible-content8 p + .collapsible-content9 p + .collapsible-content10 p{ margin-bottom: 0; }

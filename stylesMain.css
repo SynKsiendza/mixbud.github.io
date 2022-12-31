@@ -1,10 +1,13 @@
 body
 {
-    background-color: #999999;
+    background-color: #444444;
     color: #ffffff;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
 }
+
+/* ------------- Main file styles -------------- */
+
 .header
 {
     text-align: center;
@@ -14,7 +17,7 @@ body
     margin-right: auto;
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: #555555;
+    background-color: #777777;
     border-radius: 15px;
     padding: 10px;
 }
@@ -26,7 +29,7 @@ body
     margin-right: auto;
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: #555555;
+    background-color: #777777;
     border-radius: 15px;
     padding: 10px;
 }
@@ -39,7 +42,7 @@ body
     margin-right: auto;
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: #555555;
+    background-color: #777777;
     border-radius: 15px;
     padding: 10px;
     padding-top: 15px;
@@ -70,4 +73,161 @@ body
 {
     background-color: #20aab4;
     border-color: #0033ee;
+}
+
+/* ------------- Main file styles -------------- */
+
+.header_contact
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 80%;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #577cdf;
+    border-radius: 15px;
+}
+.main_contact
+{
+    font-size: 32px;
+    padding: 28px;
+    text-align: center;
+    width: 77%;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #577cdf;
+    border-radius: 15px;
+}
+.footer_contact
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 80%;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #577cdf;
+    border-radius: 15px;
+}
+.fancytext
+{
+    color: #ffffff;
+    font-size: 70px;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE;
+}
+.link0
+{
+    color: #ffffff;
+
+}
+.link0:hover
+{
+    color: #dddddd;
+}
+.link1
+{
+    color: #44c7cc;
+}
+.link1:hover
+{
+    color: #33b6bb;
+}
+/* Colapsible */
+input[type='checkbox'] { display: none; } 
+.wrap-collabsible { margin: 1.2rem 0; } 
+.lbl-toggle { 
+    display: block; 
+    font-weight: bold; 
+    font-family: monospace; 
+    font-size: 1.2rem; 
+    text-transform: uppercase; 
+    text-align: center; 
+    padding: 1rem; 
+    color: #DDD; 
+    background: #0069ff; 
+    cursor: pointer; 
+    border-radius: 7px; 
+    transition: all 0.25s ease-out;
+ } 
+    .lbl-toggle:hover { color: #FFF; } 
+    .lbl-toggle::before 
+    { content: ' '; 
+        display: inline-block; 
+        border-top: 5px solid transparent; 
+        border-bottom: 5px solid transparent; 
+        border-left: 5px solid currentColor; 
+        vertical-align: middle; 
+        margin-right: .7rem; 
+        transform: translateY(-2px); 
+        transition: transform .2s ease-out; } 
+    .toggle:checked+.lbl-toggle::before 
+        { transform: rotate(90deg) translateX(-3px); }
+    .collapsible-content { max-height: 0px; 
+            overflow: hidden; 
+            transition: max-height .25s ease-in-out; 
+        } 
+    .toggle:checked + .lbl-toggle + .collapsible-content { max-height: 350px; } 
+    .toggle:checked+.lbl-toggle { 
+        border-bottom-right-radius: 0; 
+        border-bottom-left-radius: 0; 
+    } 
+    .collapsible-content .content-inner 
+    { background: rgba(0, 105, 255, .2);
+     border-bottom: 1px solid rgba(0, 105, 255, .45); 
+     border-bottom-left-radius: 7px; 
+     border-bottom-right-radius: 7px; 
+     padding: .5rem 1rem; } 
+     .collapsible-content p { margin-bottom: 0; }
+/*Collapsible end*/
+.header_aboutme
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 80%;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #577cdf;
+    border-radius: 15px;
+}
+.main_aboutme
+{
+    font-size: 32px;
+    padding: 28px;
+    text-align: center;
+    width: 77%;
+    min-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #577cdf;
+    border-radius: 15px;
+}
+.footer_aboutme
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 80%;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #577cdf;
+    border-radius: 15px;
 }
