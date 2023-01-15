@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link src type="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap" rel="stylesheet">
+    <meta name="description" content="Overhaul page for all my projects and Dev">
+    <meta name="keywords" content="page, www, C++, cpp, csharp, cs, c#, python, java, javascript, html, html5, c, dev, development, games, Unreal, UE, epic, Unity, Unity Engine, development , github projects, SynKsiendza, Portfolio">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <!---->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EFT - MainPage</title>
+</head>
+<body>
+    <div class="headerEft">
+        <b>Main Page - SynKsiendza</b>
+    </div>
+    <div class="mainBoxEft">
+<button type="button" class="collapsible">Ammo Table</button>
+<div class="content"><!--Ammo-->
+    <table class="tableAmmo">
+      
+    </table>
+    
+</div>
+<br><br>
+<button type="button" class="collapsible">Open Section 2</button>
+<div class="content"><!---->
+  <p>
+    
+  </p>
+</div>
+<br><br>
+<button type="button" class="collapsible">Open Section 3</button>
+<div class="content"><!---->
+  <p>
+    
+  </p>
+</div>
+<br><br>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+    </div>
+    <div class="footerEft">
+        Created<span style="font-size: 10px;">&copy;</span> by SynKsiendza - 2023
+    </div>
+</body>
+</html>
