@@ -1,50 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <link src type="stylesheet">
-    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>P.H.U. Mixbud - Strona główna</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap" rel="stylesheet">
-    <meta name="description" content="Overhaul page for all my projects and Dev">
-    <meta name="keywords" content="page, www, C++, cpp, csharp, cs, c#, python, java, javascript, html, html5, c, dev, development, games, Unreal, UE, epic, Unity, Unity Engine, development , github projects, SynKsiendza, Portfolio">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <!---->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SynKsiendza FrontPage</title>
+    <script src="js/script_buttons.js"></script>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/jquery-ui-1.13.2/jquery-ui.js"></script>
+    <script src="js/jquery-ui-1.13.2/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="js/jquery-ui-1.13.2/jquery-ui.css">
+
 </head>
 <body>
-    <div class="header">
-        <b>Main Page - SynKsiendza</b>
+    <div class="head">
+        <div class="logo"><a href="index.html"><img src="img/mb_logo.png" class="slide-bck-center" width="150" height="55"></a></div><input type="search" placeholder="Wyszukaj" class="search"></input>
+
     </div>
-    <div class="mainBox">
-        <a href="hub/hubMain.html" class="link_none"><div class="myButton">
-            Hub for my coding work
-        </div></a>
-        <a href="eft/eftMain.html" class="link_none"><div class="myButton">
-            Escape From Tarkov - "Wiki / Info"
-        </div></a>
-        <a href="mc/mcMain.html" class="link_none"><div class="myButton">
-            Minecraft - "Info & Ideas"
-        </div></a>
-        <a href="windows/windowsMain.html" class="link_none"><div class="myButton">
-            Windows - "Help & Info"
-        </div></a>
-        <a href="linux/linuxMain.html" class="link_none"><div class="myButton">
-            Linux - "Help & Info"
-        </div></a>
-        <a href="coding/codingMain.html" class="link_none"><div class="myButton">
-            Coding - "Help, Info & Ideas"
-        </div></a>
-        <a href="hwcomp/hwcompMain.html" class="link_none"><div class="myButton">
-            Hardware Companion & Comparison
-        </div></a>
+    <div class="content">
+        <div class="nav">
+            <button class="btn" id="btn_farby" onclick="Farby()">Farby oraz lakiery</button>
+            <button class="btn" id="btn_wkręty" onclick="Wkrety()">Wkręty</button>
+            <button class="btn" id="btn_sruby" onclick="Sruby()"> Śruby, podkładki <br>oraz nakrętki</button>
+            <button class="btn" id="btn_sylikon" onclick="Sylikon()">Silikony, kleje,<br>piany montażowe</button>
+            <button class="btn" id="btn_worki" onclick="Worki()">Zaprawy,<br> kleje i inne</button>
+            <button class="btn" id="btn_tarcza" onclick="Tarcza()">Tarcze i wiertła</button>
+            <button class="btn" id="btn_Profile" onclick="Profile()">Profile itp.</button>
+        </div>
+
+        <div class="main-content" id="maincontent">
+            Ogólnie to jesteśmy super, wszystcy nas kochajcie a konkurencji kij w oko.
+            <hr color="gray" width="99%" size="5px" style="border-radius: 5px">
+            Gdzie nas znaleźć?<br>
+            Ul. Kasztelańska 12<br>
+            (Na przeciwko sklepu NETTO)<br>
+            58-150 Strzegom<br>
+            <hr color="gray" width="99%" size="5px" style="border-radius: 5px">
+            Kontakt:<br>
+            Mail: mail@mailowaty.pl<br>
+            Telefon: 000-000-000; 000-000-000<br>
+        </div> <br>
     </div>
-    <div class="footer">
-        Created<span style="font-size: 10px;">&copy;</span> by SynKsiendza - 2023
-        <br><br><span>*Wiki don't mean there is all info about game</span>
-    </div>
+    <div class="footer">2023 &copy; P.H.U. MIXBUD</div>
 </body>
 </html>
