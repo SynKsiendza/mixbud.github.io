@@ -150,14 +150,14 @@ html
 }
 .btn2{
 
-    font-family: Lato;
+    font-family: lato;
     font-weight: 100;
     font-size: 25px;
     color: #fff;
     background-color: #d41212;
     padding: 10px 30px;
     border: solid #cc0000 2px;
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    box-shadow: rgb(0, 0, 0) 0 0 0 0px;
     border-radius: 10px;
     transition : 725ms;
     transform: translateY(0);
@@ -214,4 +214,53 @@ html
     line-height: 0%;
     font-size: 20px;
     text-align: left;
+}
+marquee
+{
+    word-spacing: 20px;
+}
+.accordion_btn
+{
+    background: #801919;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+    width: 10%;
+    border: none;
+    transition: 0.3s;
+}
+.active, accordion_btn:hover
+{
+    background: #700808;
+}
+.accordion_content
+{
+    padding: 2px 8px;
+    background-color: #e0242450;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+.info_btn
+{
+    width: 300px;
+    background-color: #cc0000;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.info_btn:hover
+{
+    background-color: #bb0000;
+    --newheight: height +100px;
+    transition: var(--newheight) 0.5s ease;
+}
+p{
+    font-size: 15px;
 }
