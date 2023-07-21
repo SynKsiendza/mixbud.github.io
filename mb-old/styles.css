@@ -33,7 +33,7 @@ html
     border-radius: 5px;
     margin-right: 2.5%;
     height: 95%;
-    width: 70%;
+    width: 40%;
     float: right;
     color: #00000050;
     font-size: 20px;
@@ -120,7 +120,7 @@ html
     transform: translateY(0);
     display: flex;
     flex-direction: row;
-    align-items: left;
+    align-items: flex-start;
     cursor: pointer;
     margin-left: auto;
     margin-right: auto;
@@ -248,19 +248,104 @@ marquee
     background-color: #cc0000;
     color: #ffffff;
     font-size: 20px;
-    border: none;
+    border: solid 2px #cc0000;
     border-radius: 5px;
     height: 50px;
     text-align: center;
     padding-bottom: 5px;
     padding-top: 5px;
+    margin: 2% 0.25% 2% 0.25%;
+    transition : 725ms;
+    transform: translateY(0);
 }
 .info_btn:hover
 {
-    background-color: #bb0000;
-    --newheight: height +100px;
-    transition: var(--newheight) 0.5s ease;
+    transition : 725ms;
+    padding: 10px 50px;
+    transform : translateY(-5px);
+    background-color: #fff;
+    color: #ff0000;
+    border: solid 2px #cc0000;
 }
 p{
     font-size: 15px;
+}
+.btn3{
+
+    font-family: Lato;
+    font-weight: 100;
+    font-size: 25px;
+    color: #fff;
+    background-color: #d41212;
+    padding: 10px 30px;
+    border: solid #cc0000 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 10px;
+    transition : 725ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.btn3:hover{
+
+    transition : 725ms;
+    padding: 10px 50px;
+    transform : translateY(-5px);
+    background-color: #fff;
+    color: #ff0000;
+    border: solid 2px #cc0000;
+}
+.btn3:active{
+
+    transition : 725ms;
+    padding: 10px 50px;
+    transform : translateY(-5px);
+    background-color: #fff;
+    color: #aa0000;
+    border: solid 2px #bb0000;
+}
+.con_open
+{
+    transition : 725ms;
+    color: #ff0000;
+    font-size: 18px;
+    cursor: pointer;
+}
+.con_open:hover{
+    transition : 725ms;
+    font-size: 20px;
+    background-color: #ffffff15;
+    padding: 1%;
+    border-radius: 5px;
+    color: #ee0000;
+    cursor: pointer;
+}
+.map-check
+{
+    transition : 725ms;
+    color: #d60000;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.map-check:hover
+{
+    font-weight: bold;
+    color: #FF0000;
+    transition : 725ms;
+    font-size: 20px;
+    background-color: #ffffff20;
+    padding: 1%;
+    border-radius: 5px;
+    color: #ee0000;
+    cursor: pointer;
 }

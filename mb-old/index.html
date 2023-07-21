@@ -24,17 +24,21 @@
     <script src="js/script_agk.js"></script>
     <script src="js/script_akcesoria.js"></script>
     <script src="js/script_moreinfo.js"></script>
+    
 </head>
 <body>
     <div class="head">
-        <div class="logo"><a href="index.html"><img src="img/mb_logo.png" class="slide-bck-center" width="150" height="55"></a></div><input type="search" placeholder="Wyszukaj" class="search"></input>
-
+        <div class="logo"><a href="index.html"><img src="img/mb_logo.png" class="slide-bck-center" width="150" height="55"></a></div>
+        <span class="con_open"><b><a onclick="contact()" >KONTAKT I GODZINY OTWARCIA</a></b></span>
+        
+        <input type="search" placeholder="Wyszukaj" class="search">
+        
     </div>
     <div class="content">
-        <div class="nav">
+        <div class="nav" id="nav">
             <button class="btn" id="btn_farby" onclick="Farby()">Farby oraz lakiery</button>
             <button class="btn" id="btn_artmal" onclick="art_mal()">Artykuły malarskie</button>
-            <button class="btn" id="btn_wkrety" onclick="Wkrety()">Wkręty, śruby itp.</button>
+            <button class="btn" id="btn_wkrety" onclick="WkretySruby()">Artykuły Metalowe</button>
             <button class="btn" id="btn_sylikon" onclick="Sylikon()">Silikony, kleje,<br>piany montażowe</button>
             <button class="btn" id="btn_worki" onclick="Worki()">Zaprawy,<br> kleje i inne</button>
             <button class="btn" id="btn_tarcza" onclick="Tarcza()">Tarcze i wiertła</button>
@@ -43,24 +47,39 @@
         </div>
 
         <div class="main-content" id="maincontent">
-            Ogólnie to jesteśmy super, wszystcy nas kochajcie a konkurencji kij w oko.
-            <hr color="gray" width="99%" size="5px" style="border-radius: 5px">
-            Gdzie nas znaleźć?<br>
+            <span style="color: #ff1000"><b>P.H.U. MIXBUD</b></span> sklep metalowo budowlany z dużym asortymentem i przystępnymi cenami, nasze doświadczenie i dokładne podejście do każdego klienta sięga ponad 18 lat!
+            <br><br>Oferujemy również farby, zaprawy, kleje, artykuły metalowe, hydrauliczne i wiele innych, oraz dowozimy towar w odległości kilkunastu kilometrów od Sklepu! 
+            <br><br>Potrzebujesz pomocy przy zakupie - pomożemy!
+            <hr color="gray" width="99%" size="5px" style="border-radius: 5px"><br>
+            <span style="color: #ff1000"><b>Gdzie nas znaleźć?</b></span><br>
             Ul. Kasztelańska 12<br>
             (Na przeciwko sklepu NETTO)<br>
-            58-150 Strzegom<br>
+            58-150 Strzegom<br><br>
+            <span><a href='https://goo.gl/maps/z3Wf3UtZNykmdxgc6' class="map-check">SPRAWDŹ NA MAPIE!</a></span>
             <hr color="gray" width="99%" size="5px" style="border-radius: 5px">
-            Kontakt:<br>
-            Mail: mail@mailowaty.pl<br>
-            Telefon: 000-000-000; 000-000-000<br>
-            <br><br><br><br>
+            <br>
             <h6 align="center">Posiadamy produkty firm:</h6>
-            <marquee loop="infinity">
+            <marquee loop="infinity" onmouseover="stop()" onmouseout="start()">
                 <img src="img/Beckers_logo.png" width="80px" height="70px">
                 <img src="img/Dulux_logo.png" width="80px" height="70px">
-                <img src="img/dekoral_logo.png" width="130px" height="70px">
+                <img src="img/dekoral_logo.png" width="120px" height="70px">
                 <img src="img/bondex_logo.png" width="130px" height="70px">
                 <img src="img/Sniezka_logo.svg" width="130px" height="70px">
+                <img src="img/nobiles.png" width="175px" height="70px">
+                <img src="img/hammerite_logo.png" width="150px" height="70px">
+                <img src="img/feidal_logo.png" width="250px" height="70px">
+                <img src="img/Tikkurila_logo.png" width="75px" height="75px">
+                <img src="img/Dublet_logo.png" width="120px" height="70px">
+                <img src="img/Knauf_Logo.png" width="120px" height="70px">
+                <img src="img/atlas_logo.png" width="75px" height="70px">
+                <img src="img/mapei_logo.png" width="200px" height="70px">
+                <img src="img/dolinanidy_logo.png" width="200px" height="70px">
+                <img src="img/GORAZDZE_logo.png" width="120px" height="70px">
+                <img src="img/franspol_logo.png" width="160px" height="70px">
+                <img src="img/milwaukee_logo.png" width="160px" height="70px">
+                <img src="img/tengtools_logo.png" width="160px" height="70px">
+                <img src="img/logo_tytan.png" width="160px" height="70px">
+                <img src="img/logo_verkatto.png" width="160px" height="70px">
             </marquee>
         </div> <br>
                
