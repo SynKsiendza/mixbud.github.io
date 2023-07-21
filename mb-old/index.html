@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>P.H.U. Mixbud - Strona główna</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/jquery-ui-1.13.2/jquery-ui.js"></script>
+    <script src="js/jquery-ui-1.13.2/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="js/jquery-ui-1.13.2/jquery-ui.css">
+    <!-- Scripts-->
+    <script src="js/script_farby.js"></script>
+    <script src="js/script_artmal.js"></script>
+    <script src="js/script_wkrety.js"></script>
+    <script src="js/script_sylikon.js"></script>
+    <script src="js/script_worki.js"></script>
+    <script src="js/script_tarcza.js"></script>
+    <script src="js/script_agk.js"></script>
+    <script src="js/script_akcesoria.js"></script>
+    <script src="js/script_moreinfo.js"></script>
+</head>
+<body>
+    <div class="head">
+        <div class="logo"><a href="index.html"><img src="img/mb_logo.png" class="slide-bck-center" width="150" height="55"></a></div><input type="search" placeholder="Wyszukaj" class="search"></input>
+
+    </div>
+    <div class="content">
+        <div class="nav">
+            <button class="btn" id="btn_farby" onclick="Farby()">Farby oraz lakiery</button>
+            <button class="btn" id="btn_artmal" onclick="art_mal()">Artykuły malarskie</button>
+            <button class="btn" id="btn_wkrety" onclick="Wkrety()">Wkręty, śruby itp.</button>
+            <button class="btn" id="btn_sylikon" onclick="Sylikon()">Silikony, kleje,<br>piany montażowe</button>
+            <button class="btn" id="btn_worki" onclick="Worki()">Zaprawy,<br> kleje i inne</button>
+            <button class="btn" id="btn_tarcza" onclick="Tarcza()">Tarcze i wiertła</button>
+            <button class="btn" id="btn_agk" onclick="agk()">Zabudowa AGK</button>
+            <button class="btn" id="btn_akcesoria" onclick="akcesoria()">Akcesoria</button>
+        </div>
+
+        <div class="main-content" id="maincontent">
+            Ogólnie to jesteśmy super, wszystcy nas kochajcie a konkurencji kij w oko.
+            <hr color="gray" width="99%" size="5px" style="border-radius: 5px">
+            Gdzie nas znaleźć?<br>
+            Ul. Kasztelańska 12<br>
+            (Na przeciwko sklepu NETTO)<br>
+            58-150 Strzegom<br>
+            <hr color="gray" width="99%" size="5px" style="border-radius: 5px">
+            Kontakt:<br>
+            Mail: mail@mailowaty.pl<br>
+            Telefon: 000-000-000; 000-000-000<br>
+            <br><br><br><br>
+            <h6 align="center">Posiadamy produkty firm:</h6>
+            <marquee loop="infinity">
+                <img src="img/Beckers_logo.png" width="80px" height="70px">
+                <img src="img/Dulux_logo.png" width="80px" height="70px">
+                <img src="img/dekoral_logo.png" width="130px" height="70px">
+                <img src="img/bondex_logo.png" width="130px" height="70px">
+                <img src="img/Sniezka_logo.svg" width="130px" height="70px">
+            </marquee>
+        </div> <br>
+               
+    </div>
+    <div class="footer">2023 &copy; P.H.U. MIXBUD</div>
+</body>
+</html>
